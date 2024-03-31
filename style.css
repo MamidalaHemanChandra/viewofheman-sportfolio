@@ -1,0 +1,70 @@
+h1{
+    background: linear-gradient(to right,blue,pink);
+}
+h2{
+    background: linear-gradient(to right,blue,pink);
+}
+body{ 
+    font-family: "Trirong",serif;
+    color: black;
+    line-height: 1.5;
+}
+img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+    object-fit: cover;
+}
+section{
+    padding: 10px auto;
+    text-align: center;
+}
+a{
+    color:rgb(255, 127, 210);
+    text-decoration: dotted;
+}
+a:hover{
+    color:red;
+    text-decoration: underline;
+}
+form{
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background: whitesmoke;
+    box-shadow: 0 5px 15px rgba(0,0,0,1);
+}
+form input[type="text"],
+form input[type="email"],
+form textarea{
+    width:calc(100%-20px);
+    padding:10px;
+    margin-bottom:20px;
+    border:1px solid white;
+    border-radius:5px;
+}
+form button{
+    background:gray;
+    color:white;
+    border:0;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:14px;
+}
+form button:hover{
+    background:red;
+}
+h1,h2,p{
+    margin: 30px auto;
+    padding: 25px;
+    background-color: whitesmoke;
+    max-width: 950px;
+}
+h1,h2{ 
+    font-family: "Trirong",serif;
+    color: white;
+    line-height: 1.5;
+}
+
